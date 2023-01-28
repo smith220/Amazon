@@ -1,13 +1,16 @@
 import React from "react";
+import Header from "./Header";
 import "./Home.css";
 import Product from "./Product";
+
 function Home() {
-  const data = '{"amount":59997,"id":"pm_1MG3Z4IJh8cujezgVRlBsQsr"}'
+
   return (
 
-        
+        <>
+        <Header/>
     <div className="home">
-    {console.log( JSON.parse(data).id)}
+  
     
       <div className="home__container">
         <img
@@ -68,6 +71,7 @@ function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

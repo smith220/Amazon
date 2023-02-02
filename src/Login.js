@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import  auth  from "./Firebase";
 
 function Login() {
-    console.log(auth);
+  
     const Navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -37,7 +37,7 @@ function Login() {
     return (
         <div className='login'>
             <Link to='/'>
-                <img
+                <img alt='pic'
                     className="login__logo"
                     src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' 
                 />

@@ -13,9 +13,10 @@ import { getBasketTotal } from "./reducer";
 
 
 
+
 function Subtotal() {
   
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket },] = useStateValue();
 
   return (
     <div className="subtotal">
@@ -47,7 +48,7 @@ export default Subtotal;
 
 
 // function Subtotal() {
-// const history =useHistory()
+
 //   const [{ basket }, dispatch] = useStateValue();
 //   const [product, setProduct] = useState({
 //     name: "React from FB",

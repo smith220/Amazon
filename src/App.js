@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react';
 import './App.css';
 import Home from './Home';
+import Headers from './Header'
 import Checkout from './Checkout';
 import Login from './Login';
 import {BrowserRouter ,  Routes ,Route} from "react-router-dom";
@@ -43,6 +44,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <Headers/>
     <div className="App">   
 
 <Routes > 

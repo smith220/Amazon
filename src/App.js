@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import './App.css';
 import Home from './Home';
-import Headers from './Header'
+
 import Checkout from './Checkout';
 import Login from './Login';
 import {BrowserRouter ,  Routes ,Route} from "react-router-dom";
@@ -13,13 +13,10 @@ import { useStateValue } from './StateProvider';
 
 
 
-function App() {
-  const [ dispatch] = useStateValue();
-  
-    // will only run once when the app element loads...
-   
-   //onClick={handleAuthenticaton} 
-   useEffect(() => {
+function 
+App() {
+  const [{}, dispatch] = useStateValue();
+  useEffect(() => {
     // will only run once when the app component loads...
 
     auth.onAuthStateChanged((authUser) => {
@@ -42,9 +39,10 @@ function App() {
     });
   }, []);
 
+
   return (
     <BrowserRouter>
-    <Headers/>
+
     <div className="App">   
 
 <Routes > 

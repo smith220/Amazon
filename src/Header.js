@@ -9,7 +9,7 @@ import { useStateValue } from "./StateProvider";
 
 function Header() {
   const [{ basket, user }] = useStateValue();
-
+ 
   const handleAuthenticaton = () => {
     if (user) {
        auth.signOut();

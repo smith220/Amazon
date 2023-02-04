@@ -42,11 +42,11 @@ App() {
 
 
   return (
-    <BrowserRouter basename='/Amazon' >
+    <BrowserRouter basename='/dmin' >
 
     <div className="App">   
 
-<Routes basename='/Amazon'  > 
+<Routes basename='/dmin'  > 
 
 <Route path="/"  element={<Home/>}/>
 

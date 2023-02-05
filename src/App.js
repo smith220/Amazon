@@ -42,11 +42,11 @@ App() {
 
 
   return (
-    <BrowserRouter basename='/dmin' >
+    <BrowserRouter basename='' >
 
     <div className="App">   
 
-<Routes basename='/dmin'  > 
+<Routes basename=''  > 
 
 <Route path="/"  element={<Home/>}/>
 

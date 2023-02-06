@@ -1,5 +1,7 @@
+
+ 
 {
-   "homepage": "https://smith220.github.io/amazon",
+  "homepage":"https://smith220.github.io/NewAmazon",
   "name": "amazon",
   "version": "0.1.0",
   "private": false,
@@ -22,7 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set \"CI=false\" && react-scripts build",
+   
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",

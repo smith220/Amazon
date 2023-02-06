@@ -41,9 +41,12 @@ App() {
   }, []);
 
 
-  return (
-    <BrowserRouter basename='' >
+  return ( 
+    <>
 
+   
+    <BrowserRouter basename='' >
+    <Header/>
     <div className="App">   
 
 <Routes basename=''  > 
@@ -57,7 +60,7 @@ App() {
     </Routes>
     </div>
     </BrowserRouter>
-    
+    </>
   )
 }
 
